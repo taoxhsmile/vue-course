@@ -21,6 +21,7 @@
         <button @click="addComponent('Swiper')">轮播图</button>
         <button @click="addComponent('GoodList')">商品列表</button>
         <button @click="addComponent('Search')">搜索条</button>
+        <button @click="addComponent('ScrollGoodList')">商品横向滚动</button>
       </div>
     </div>
 
@@ -86,7 +87,7 @@ export default {
     margin-left: 200px;
     .preview {
       width: 375px;
-      height: 667px;
+      min-height: 667px;
       border: 1px solid #ccc;
       .buttons {
         border: 1px dashed #ccc;
